@@ -12,6 +12,18 @@ body {
     color: var(--black-color);
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 .nav-link {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
@@ -98,4 +110,84 @@ body {
     text-transform: uppercase;
     color: white;
     background-color: var(--greenlight-color);
+}
+
+.footer-form-input {
+    border: 1px solid var(--light-wight-color);
+    padding: 12px 10px;
+    width: 230px;
+}
+
+.footer-form-btn {
+    border: none;
+    padding: 12px 38px;
+}
+
+.header {
+    padding: 17px 0;
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 0;
+}
+
+.nav-link:not(:last-child) {
+    margin-right: 55px;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services-item {
+    width: 366px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.services-item-title {
+    margin-top: 0;
+}
+
+.services-item-img {
+    margin-right: 18px;
+}
+
+.services-line,
+.team-line {
+    background-color: var(--red-color);
+    height: 4px;
+    width: 60px;
+    margin: 40px auto 65px auto;
+}
+
+.team-line {
+    margin-bottom: 40px;
+}
+
+.team-list {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+figure {
+    margin: 0;
+}
+
+.footer-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 80px;
+
+    border-top: 1px solid var(--light-wight-color);
 }
